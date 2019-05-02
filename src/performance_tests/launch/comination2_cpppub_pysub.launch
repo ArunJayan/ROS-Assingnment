@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Combination 3: C++ publisher to Python subscriber -->
+<launch>
+	<!-- C++ Publisher -->
+	<node pkg="performance_tests" type="cpp_publisher" name="cpp_publisher"/>
+	<!-- Python Subscriber -->
+	<node pkg="performance_tests" type="python_subscriber.py" name="python_subscriber"/>
+</launch>

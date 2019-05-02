@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Combination 3: C++ publisher to Python subscriber -->
+<launch>
+	<node pkg="cv_camera" type="cv_camera_node" name="cv_camera_node"/>
+
+	<node pkg="canny_edge_my_face" type="canny_edge_node.py" name="canny_edge_node"/>
+</launch>

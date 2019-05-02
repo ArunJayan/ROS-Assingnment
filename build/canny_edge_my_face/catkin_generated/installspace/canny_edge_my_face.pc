@@ -1,0 +1,8 @@
+prefix=/home/arunjayan/assignment_workspace/install
+
+Name: canny_edge_my_face
+Description: Description of canny_edge_my_face
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/arunjayan/assignment_workspace/install/lib 
+Requires: 
