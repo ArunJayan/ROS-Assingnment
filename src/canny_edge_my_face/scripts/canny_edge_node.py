@@ -30,7 +30,7 @@ class image_converter:
     cv2.waitKey(3)
 
     try:
-      self.image_pub.publish(self.bridge.cv2_to_imgmsg(cv_image, "bgr8"))
+      self.image_pub.publish(self.bridge.cv2_to_imgmsg(cv_edges, "bgr8"))
       rospy.loginfo("published!")
     except CvBridgeError as e:
       print(e)
